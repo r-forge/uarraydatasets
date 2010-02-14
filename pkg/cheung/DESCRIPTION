@@ -1,0 +1,10 @@
+Package: cheung
+Type: Package
+Title: Microarray dataset of Jen and Cheung 2003
+Version: 1.0
+Date: 2010-02-08
+Author: Tom Radivoyevitch
+Maintainer: Tom Radivoyevitch <txr24@case.edu>
+Description: This is the GEO dataset GDS479. Irradiated lymphocyte time cours responses to 3 and 10 Gy.
+License: GPL-2
+LazyLoad: yes
