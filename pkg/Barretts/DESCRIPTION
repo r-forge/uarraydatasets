@@ -1,0 +1,10 @@
+Package: Barretts
+Type: Package
+Title: Data package
+Version: 1.0
+Date: 2010-02-20
+Author: Nathan Morris
+Maintainer: Nathan Morris <njm18@case.edu>
+Description: Just a data package
+License: GPL-2
+LazyLoad: yes
