@@ -1,17 +1,18 @@
 \name{gds2771}
 \alias{gds2771}
+\alias{gds2771-package}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+  GEO data set, accession GDS2771
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+  GEO data set package from Spira A, Beane JE, Shah V, Steiling K et al. Airway epithelial gene expression in the diagnostic evaluation of smokers with suspect lung cancer. Nat Med 2007 Mar;13(3):361-6. PMID: 17334370
 }
 \usage{data(gds2771)}
 \format{
   The format is:
 Formal class 'ExpressionSet' [package "Biobase"] with 7 slots
-  ..@ assayData        :<environment: 0x0693e18c> 
+  ..@ assayData        :<environment: 0x04b0c69c> 
   ..@ phenoData        :Formal class 'AnnotatedDataFrame' [package "Biobase"] with 4 slots
   .. .. ..@ varMetadata      :'data.frame':	3 obs. of  1 variable:
   .. .. .. ..$ labelDescription: chr [1:3] NA NA NA
@@ -109,16 +110,26 @@ Formal class 'ExpressionSet' [package "Biobase"] with 7 slots
   .. .. .. ..$ : int [1:3] 1 0 0
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+  Analysis of large airway epithelial cells from cigarette smokers without cancer, with cancer, and with suspect lung cancer. Results provide insight into the feasibility of using gene expression to detect early stage lung cancer in smokers.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+  http://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=GDS2771
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+  Spira A, Beane JE, Shah V, Steiling K et al. Airway epithelial gene expression in the diagnostic evaluation of smokers with suspect lung cancer. Nat Med 2007 Mar;13(3):361-6. PMID: 17334370
 }
 \examples{
+library(Biobase)
+library(gds2771)
 data(gds2771)
-## maybe str(gds2771) ; plot(gds2771) ...
+gds2771
+pd=pData(gds2771)
+pd
+dim(pd)
+fd = fData(gds2771)
+ed = assayData(gds2771)
+mat=get("exprs",ed)
+head(mat)
+exprs(gds2771)
 }
 \keyword{datasets}
