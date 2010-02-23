@@ -1,0 +1,11 @@
+Package: cahn
+Type: Package
+Title: This is a data package only for skeletal muscle disuse atrophy in humans.
+Version: 1.0
+Date: 2010-02-21
+Author: Cahn
+Maintainer: <sdc28@case.edu>
+Description: Analysis of immobilized gastrocnemius muscles from patients with a
+leg placed in a cast to stabilize a fractured ankle.
+License: GPL-2
+LazyLoad: yes
