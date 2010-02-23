@@ -1,0 +1,10 @@
+Package: OralHygiene
+Type: Package
+Title: Loads the Gingival epithelial cell line ExpressionSet object
+Version: 1.0
+Date: 2010-02-22
+Author: Jarrod E. Dalton
+Maintainer: Jarrod E. Dalton <jarrod.dalton@gmail.com>
+Description: This dataset was obtained from the National Center for Biotechnology Information.  12 samples were taken:  4 HIGK cells infected with porphyromonas gingivalis, 4 HIGK cells infected with aggregatibacter actinomycetemcomitans, and 4 HIGK cells infected with sham controls.}
+License: GPL2
+LazyLoad: yes
