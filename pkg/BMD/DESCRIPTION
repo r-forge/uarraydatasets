@@ -1,0 +1,10 @@
+Package: BMD
+Type: Package
+Title: Bone mineral density and monocytes
+Version: 1.0
+Date: 2010-02-23
+Author: Sumathy
+Maintainer: sumathymai@gmail.com
+Description: Comparison of circulating monocytes from pre- and postmenopausal females with low or high bone mineral density (BMD). 
+License: GPL-2
+LazyLoad: yes
