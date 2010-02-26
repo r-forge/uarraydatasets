@@ -3,8 +3,8 @@ Type: Package
 Title: Bone mineral density and monocytes
 Version: 1.0
 Date: 2010-02-23
-Author: Sumathy
+Author: Sumathy Mai GS
 Maintainer: sumathymai@gmail.com
-Description: Comparison of circulating monocytes from pre- and postmenopausal females with low or high bone mineral density (BMD). 
+Description: Comparison of circulating monocytes from pre- and postmenopausal females with low or high bone mineral density (BMD). Circulating monocytes are progenitors of osteoclasts, and produce factors important to bone metabolism. Results provide insight into the role of monocytes in osteoporosis.(DataSet Record GDS1287 from NCBI; Citation: Liu YZ, Dvornyk V, Lu Y, Shen H et al. A novel pathophysiological mechanism for osteoporosis suggested by an in vivo gene expression study of circulating monocytes. J Biol Chem 2005 Aug 12;280(32):29011-6. PMID: 15965235)
 License: GPL-2
 LazyLoad: yes
