@@ -109,6 +109,7 @@ The data was obtained from {http://www.ncbi.nlm.nih.gov/geo/gds/gds_browse.cgi?g
 }
 \examples{
 data(BMD)
-## maybe str(BMD) ; plot(BMD) ...
+str(BMD)  
+plot(BMD)
 }
 \keyword{datasets}

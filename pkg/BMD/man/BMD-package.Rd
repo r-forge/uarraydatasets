@@ -4,7 +4,7 @@
 \alias{BMD}
 \docType{package}
 \title{
-What the package does (short line)
+Bone mineral density and circulating monocytes
 ~~ package title ~~
 }
 \description{
