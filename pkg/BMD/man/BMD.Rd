@@ -1,12 +1,9 @@
 \name{BMD}
 \Rdversion{1.1}
-\alias{BMD}
+\alias{Bone Mineral Density}
 \docType{data}
-\title{
-%%   Bone mineral density and circulating monocytes
-}
-\description{
-%%  Comparison of circulating monocytes from pre- and postmenopausal females with low or high bone mineral density (BMD). Circulating monocytes are progenitors of osteoclasts, and produce factors important to bone metabolism. Results provide insight into the role of monocytes in osteoporosis.
+\title{Bone mineral density and circulating monocytes}
+\description{Comparison of circulating monocytes from pre- and postmenopausal females with low or high bone mineral density 	(BMD). Circulating monocytes are progenitors of osteoclasts, and produce factors important to bone metabolism. Results 	provide insight into the role of monocytes in osteoporosis.
 }
 \usage{data(BMD)}
 \format{
@@ -109,7 +106,6 @@ The data was obtained from {http://www.ncbi.nlm.nih.gov/geo/gds/gds_browse.cgi?g
 }
 \examples{
 data(BMD)
-str(BMD)  
-plot(BMD)
+## maybe str(BMD) ; plot(BMD) ...
 }
 \keyword{datasets}

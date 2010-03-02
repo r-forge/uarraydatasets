@@ -4,7 +4,7 @@
 \alias{BMD}
 \docType{package}
 \title{
-Bone mineral density and circulating monocytes
+What the package does (short line)
 ~~ package title ~~
 }
 \description{
@@ -40,5 +40,5 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+data(BMD)
 }
