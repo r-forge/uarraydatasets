@@ -1,11 +1,11 @@
 Package: gds2771
 Type: Package
-Title: Large airway epithelial cells from cigarette smokers with suspect lung cancer
+Title: Microarray expression dataset of Spira et.al. Nat Med 2007 Mar;13(3):361-6. PMID: 17334370
 Version: 1.0
 Date: 2010-02-19
 Author: Yeunjoo Song
 Maintainer: Yeunjoo Song <song@case.edu>
-Description: GEO dataset package from Spira A, Beane JE, Shah V, Steiling K et al. Airway epithelial gene expression in the diagnostic evaluation of smokers with suspect lung cancer. Nat Med 2007 Mar;13(3):361-6. PMID: 17334370
-             Analysis of large airway epithelial cells from cigarette smokers without cancer, with cancer, and with suspect lung cancer. Results provide insight into the feasibility of using gene expression to detect early stage lung cancer in smokers.
+Description: This is the GEO dataset GDS2771. Large airway epithelial cells from
+             cigarette smokers with suspect lung cancer.
 License: GPL-2
 LazyLoad: yes
