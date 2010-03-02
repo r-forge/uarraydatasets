@@ -22,9 +22,5 @@ The object 'hygiene' in this library contains gene expression data.  See help(hy
 Jarrod E. Dalton
 
 Maintainer: Jarrod E. Dalton <jarrod.dalton@gmail.com>
-~~ The author and/or maintainer of the package ~~
-}
-\references{
-~~ Literature or other references for background information ~~
 }
 \keyword{ package }
